@@ -34,5 +34,24 @@ body{
 }
 
 
+/* box2 */
+.b2{
+    color: white;
+    background-color: hsl(256, 67%, 59%);
+    text-align: center;
+    border-radius: 10px;
+}
 
+#color{
+    color: hsl(39, 100%, 71%);
+}
+
+.b2 #italic{
+    font-family: italic-font;
+}
+
+.b2 > img{
+    width: 140px;
+    height: 30px;
+}
 
