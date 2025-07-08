@@ -97,3 +97,20 @@ body{
     object-position: 0 100%;
 }
 
+
+/* box6 */
+.b6{
+    background-color:  hsl(39, 100%, 71%);
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.b6 > img{
+    width: 210px;
+    height: 95px;
+    object-fit: cover;
+    object-position: 100% 0;
+
+}
+
