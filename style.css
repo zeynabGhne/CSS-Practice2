@@ -25,6 +25,7 @@ body{
     padding-left: 180px;
     padding-right: 180px;
     overflow: hidden;
+    background-color: rgb(245, 245, 245);
 }
 
 /* box1 */
@@ -37,11 +38,8 @@ body{
 }
 
 .b1 > img{
-    width: 140px;
+    width: 160px;
     height: 70px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .b1 #italic{
@@ -84,7 +82,7 @@ body{
 }
 
 .b3 > img{
-    width: 240px;
+    width: 235px;
     height: 337px;
     object-fit: cover;
     object-position: 0 100%;
@@ -101,8 +99,9 @@ body{
 }
 
 .b4 > img{
-    width: 180px;
-    height: 200px;
+    width: 230px;
+    height: 240px;
+    padding-top: 20px;
 }
 
 
@@ -112,11 +111,12 @@ body{
     padding: 15px;
     grid-column: 2/3;
     grid-row: 5/8;
+    background-color: white;
 }
 
 .b5 > img{
-    width: 210px;
-    height: 60px;
+    width: 235px;
+    height: 65px;
     object-fit: cover;
     object-position: 0 100%;
 }
@@ -133,11 +133,12 @@ body{
 }
 
 .b6 > img{
+    padding-top: 20px;
+    padding-left: 10px;
     width: 210px;
     height: 95px;
     object-fit: cover;
-    object-position: 100% 0;
-
+    object-position: 90% 0;
 }
 
 
@@ -147,6 +148,8 @@ body{
     padding: 15px;
     grid-column: 2/3;
     grid-row: 8/11;
+    background-color: white;
+
 }
 
 .b7 > img{
@@ -163,22 +166,19 @@ body{
     padding: 15px;
     border-radius: 10px;
     display: grid;
-    grid-template-columns: 160px auto;
+    grid-template-columns: 220px auto;
     grid-column: 3/5;
     grid-row: 8/11;
 }
 
 .b8 > img{
-    width: 150px;
-    height: 130px;
+    width: 220px;
+    height: 200px;
     grid-column: 1/2;
 }
 
 .b8 .t{
     grid-column: 2/3;
-}
-
-/* shadow */
-.b1, .b2, .b3, .b4, .b5, .b6, .b7, .b8{
-    box-shadow: 20px 20px 100px rgb(160, 160, 160);
+    text-align: center;
+    padding-top: 30px;
 }
