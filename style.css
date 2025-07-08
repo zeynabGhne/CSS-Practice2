@@ -1,0 +1,9 @@
+@font-face {
+    font-family: my font;
+    src: url(DMSans-VariableFont_opsz,wght.ttf);
+}
+
+@font-face {
+    font-family: italic-font;
+    src: url(DMSans-VariableFont_opsz,wght.ttf);
+}
