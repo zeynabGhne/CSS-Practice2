@@ -1,9 +1,17 @@
 @font-face {
     font-family: my font;
-    src: url(DMSans-VariableFont_opsz,wght.ttf);
+    src: url(DMSans-DMSans-Medium.ttf);
 }
 
 @font-face {
     font-family: italic-font;
-    src: url(DMSans-VariableFont_opsz,wght.ttf);
+    src: url(DMSans-Italic-VariableFont_opsz,wght.ttf);
 }
+
+body{
+    font-size: 18px;
+    font-family: my font;
+}
+
+
+
