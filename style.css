@@ -8,9 +8,23 @@
     src: url(DMSans-Italic-VariableFont_opsz,wght.ttf);
 }
 
-body{
+.container{
     font-size: 18px;
     font-family: my font;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 10fr;
+    gap: 15px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding-left: 180px;
+    padding-right: 180px;
+    overflow: hidden;
 }
 
 /* box1 */
@@ -18,6 +32,8 @@ body{
     background-color: hsl(31, 66%, 93%);
     border-radius: 10px;
     padding: 15px;
+    grid-column: 1/2;
+    grid-row: 1/6;
 }
 
 .b1 > img{
@@ -40,6 +56,8 @@ body{
     background-color: hsl(256, 67%, 59%);
     text-align: center;
     border-radius: 10px;
+    grid-column: 2/4;
+    grid-row: 1/5;
 }
 
 #color{
@@ -61,6 +79,8 @@ body{
     background-color: hsl(254, 88%, 90%);
     border-radius: 10px;
     padding: 15px;
+    grid-column: 4/5;
+    grid-row: 1/8;
 }
 
 .b3 > img{
@@ -76,6 +96,8 @@ body{
     background-color: hsl(39, 100%, 71%);
     border-radius: 10px;
     padding: 15px;
+    grid-column: 1/2;
+    grid-row: 6/11;
 }
 
 .b4 > img{
@@ -88,6 +110,8 @@ body{
 .b5{
     border-radius: 10px;
     padding: 15px;
+    grid-column: 2/3;
+    grid-row: 5/8;
 }
 
 .b5 > img{
@@ -104,6 +128,8 @@ body{
     border-radius: 10px;
     padding: 10px;
     padding-bottom: 0px;
+    grid-column: 3/4;
+    grid-row: 5/8;
 }
 
 .b6 > img{
@@ -119,6 +145,8 @@ body{
 .b7{
     border-radius: 10px;
     padding: 15px;
+    grid-column: 2/3;
+    grid-row: 8/11;
 }
 
 .b7 > img{
@@ -128,3 +156,29 @@ body{
 
 
 
+/* box8 */
+.b8{
+    color: white;
+    background-color: hsl(256, 67%, 59%);
+    padding: 15px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 160px auto;
+    grid-column: 3/5;
+    grid-row: 8/11;
+}
+
+.b8 > img{
+    width: 150px;
+    height: 130px;
+    grid-column: 1/2;
+}
+
+.b8 .t{
+    grid-column: 2/3;
+}
+
+/* shadow */
+.b1, .b2, .b3, .b4, .b5, .b6, .b7, .b8{
+    box-shadow: 20px 20px 100px rgb(160, 160, 160);
+}
