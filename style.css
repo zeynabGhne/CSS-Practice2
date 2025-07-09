@@ -35,11 +35,12 @@ body{
     padding: 15px;
     grid-column: 1/2;
     grid-row: 1/6;
+    font-size: 24px;
 }
 
 .b1 > img{
-    width: 160px;
-    height: 70px;
+    width: 200px;
+    height: 90px;
 }
 
 .b1 #italic{
@@ -52,10 +53,12 @@ body{
 .b2{
     color: white;
     background-color: hsl(256, 67%, 59%);
+    padding: 15px;
     text-align: center;
     border-radius: 10px;
     grid-column: 2/4;
     grid-row: 1/5;
+    font-size: 24px;
 }
 
 #color{
@@ -126,7 +129,7 @@ body{
 .b6{
     background-color:  hsl(39, 100%, 71%);
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
     padding-bottom: 0px;
     grid-column: 3/4;
     grid-row: 5/8;
@@ -181,4 +184,118 @@ body{
     grid-column: 2/3;
     text-align: center;
     padding-top: 30px;
+}
+
+
+
+/* mobile screen */
+@media screen and (max-width:1100px) {
+    body{
+        height: auto;
+        display: block;
+        padding: 20px;
+        overflow: scroll;
+
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .b1, .b2, .b3,.b4,.b5,.b6,.b7,.b8{
+        grid-column: auto;
+        grid-row: auto;
+    }
+}
+
+
+@media (max-width:375px) {
+     .container {
+        overflow-x: hidden;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "b2"
+            "b5"
+            "b6"
+            "b3"
+            "b8"
+            "b1"
+            "b7"
+            "b4"
+        
+        
+    }
+    .b1{
+        grid-area: b1;
+    }
+    .b2{
+        grid-area: b2;
+    }
+    .b3{
+        grid-area: b3;
+    }
+    .b4{
+        grid-area: b4;
+    }
+    .b5{
+        grid-area: b5;
+    }
+    .b6{
+        grid-area: b6;
+    }
+    .b7{
+        grid-area: b7;
+    }
+    .b8{
+        grid-area: b8;
+    }
+
+    .b3 >img{
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        object-position: center center;
+    }
+    
+    .b5 >img{
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        object-position: center center;
+    }
+    
+    .b6 >img{
+        width: 200px;
+        height: 150px;
+        object-fit: contain;
+        object-position: center center;
+    }
+    
+
+    .b8{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 180px auto;
+        }
+
+    .b8 > img{
+    width: 200px;
+    height: 180px;
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    }
+
+    .b8 .t{
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    padding-top: 30px;
+    }
+
+    .b1, .b2, .b3,.b4,.b5,.b6,.b7,.b8{
+        width: 250px;
+    }
+
+
 }
