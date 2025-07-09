@@ -1,6 +1,12 @@
 This project is an HTML and CSS exercise for the frontend. I used CSS Grid and responsive design to accomplish it.
 
+preview
+
+desktop:
 ![Desktop Preview](./desktop.png)
+
+mobile:
+![Desktop Preview](./mobile.jpg)
 
 
 🧰 Technologies
@@ -11,6 +17,9 @@ CSS Grid for complex grid arrangements
 Flexbox for flexible alignment
 Media Queries for device adaptability
 Custom Fonts using @font-face
+
+
+
 📱 Responsive Behavior
 
 This layout dynamically adjusts across different screen sizes:
@@ -19,6 +28,8 @@ This layout dynamically adjusts across different screen sizes:
 📱 Tablets – single-column responsive grid 
 📞 Mobiles – Single-column stacked view
 
+
+
 🎯 Features
 
 - Modular card-style layout
@@ -26,6 +37,7 @@ This layout dynamically adjusts across different screen sizes:
 - Fully adaptive grid-based design
 - Lightweight and clean visual style
 - Fonts integrated from local files
+  
 
 
 💡 Key Learnings
@@ -34,6 +46,7 @@ Structuring reusable, semantic HTML components
 Implementing adaptive grid systems with CSS
 Using Flexbox and Grid in combination
 Creating pixel-perfect layouts across breakpoints
+
 
 
 🚀 Getting Started
