@@ -24,9 +24,9 @@ Custom Fonts using @font-face
 
 This layout dynamically adjusts across different screen sizes:
 
-💻 Large screens – Four-column layout 
-📱 Tablets – single-column responsive grid 
-📞 Mobiles – Single-column stacked view
+- 💻 Large screens – Four-column layout 
+- 📱 Tablets – single-column responsive grid 
+- 📞 Mobiles – Single-column stacked view
 
 
 
@@ -42,10 +42,10 @@ This layout dynamically adjusts across different screen sizes:
 
 💡 Key Learnings
 
-Structuring reusable, semantic HTML components
-Implementing adaptive grid systems with CSS
-Using Flexbox and Grid in combination
-Creating pixel-perfect layouts across breakpoints
+- Structuring reusable, semantic HTML components
+- Implementing adaptive grid systems with CSS
+- Using Flexbox and Grid in combination
+- Creating pixel-perfect layouts across breakpoints
 
 
 
